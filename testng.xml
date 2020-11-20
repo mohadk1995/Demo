@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+<listeners>
+<listener class-name="Academymmk.MavenTest.LISTENERS"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+  <test name="HomePage">
+    <classes>
+      <class name="Academymmk.MavenTest.HomePage"/>
+      </classes>
+  </test>
+  <test name="Demo">
+    <classes>
+      <class name="Academymmk.MavenTest.Demo"/>
+      </classes>
+  </test>
+  <test name="Apptest">
+    <classes>
+      <class name="Academymmk.MavenTest.AppTest"/>
+      </classes>
+  </test>
+  <test name="Validator">
+    <classes>
+      <class name="Academymmk.MavenTest.Validator"/>
+      </classes>
+  </test>
+   <test name="URL">
+    <classes>
+      <class name="Academymmk.MavenTest.URL"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
